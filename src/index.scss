@@ -1,0 +1,88 @@
+/*Variáveis*/
+$base-color: #646464;
+$border-color: #a5a5a5;
+    
+html{
+  font-size: 16px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.rem{
+  font-size: 1.5rem;
+}
+
+.pix{
+  font-size: 24px;
+}
+
+button{
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+.btn-default{
+  background: #765168;
+  color: #fff;
+  border: 1px solid #656565;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.btn-minimal{
+  background: #fff;
+  color: #000;
+  border: 1px solid #656565;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/*Header*/
+.header{
+  display: flex;
+  padding: 1.25rem;
+}
+
+.header{
+  .row{
+      border: 1px solid;
+      width: 100%;
+      padding: 1.25rem;
+      display: flex;
+      justify-content: space-between;
+
+      .logo{
+          font-weight: 700;
+          font-size: 2rem;
+      }
+
+      .right-nav{
+          display: flex;
+          align-items: center;
+          align-content: center;
+
+          nav ul{
+            display: flex;
+            justify-content: space-between;
+
+            li{
+                list-style: none;
+                margin-right: 15px;
+                cursor: pointer;
+            }
+            
+            li:hover{
+                color: #646464;
+            }
+        }
+      }
+  }
+}

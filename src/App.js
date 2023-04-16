@@ -1,4 +1,5 @@
-import './index.css';
+//import './index.css';
+import './index.scss';
 
 import Button from './components/Button';
 import Header from './components/Header';
