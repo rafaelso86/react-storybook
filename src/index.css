@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.rem{
+  font-size: 1.5rem;
+}
+
+.pix{
+  font-size: 24px;
+}
+
+button{
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+.btn-default{
+  background: #765168;
+  color: #fff;
+  border: 1px solid #656565;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.btn-minimal{
+  background: #fff;
+  color: #000;
+  border: 1px solid #656565;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/*Header*/
+.header{
+  display: flex;
+  padding: 1.25rem;
+}
+
+.header .row{
+  border: 1px solid;
+  width: 100%;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.header .right-nav{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.header .right-nav nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .right-nav nav ul li{
+  list-style: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.header .right-nav nav ul li:hover{
+  color: #646464;
 }
